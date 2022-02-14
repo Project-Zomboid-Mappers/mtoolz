@@ -1,0 +1,8 @@
+name=Louisville for Odeon Server
+id=Louisville_Odeon
+
+description=Город отдельно от основной карты, для сервера Odeon.
+poster=poster.png
+pack=Psix
+pack=Psix.floor
+tiledef=Metro.Liverpool 150
