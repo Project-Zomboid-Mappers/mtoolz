@@ -1,165 +1,142 @@
 version = 1
-
 alias
 {
     name = lightgrass_n
     tiles = [
         blends_natural_01_56
-		blends_natural_01_60			
+        blends_natural_01_60
     ]
 }
-
 alias
 {
     name = lightgrass_w
     tiles = [
         blends_natural_01_57
-		blends_natural_01_61
+        blends_natural_01_61
     ]
 }
-
 alias
 {
     name = lightgrass_e
     tiles = [
         blends_natural_01_58
-		blends_natural_01_62
+        blends_natural_01_62
     ]
 }
-
-
 alias
 {
     name = lightgrass_s
     tiles = [
         blends_natural_01_59
-		blends_natural_01_63
+        blends_natural_01_63
     ]
 }
-
 alias
 {
     name = medgrass_n
     tiles = [
         blends_natural_01_40
-		blends_natural_01_44			
+        blends_natural_01_44
     ]
 }
-
 alias
 {
     name = medgrass_w
     tiles = [
         blends_natural_01_41
-		blends_natural_01_45			
+        blends_natural_01_45
     ]
 }
-
 alias
 {
     name = medgrass_e
     tiles = [
         blends_natural_01_42
-		blends_natural_01_46
+        blends_natural_01_46
     ]
 }
-
-
 alias
 {
     name = medgrass_s
     tiles = [
         blends_natural_01_43
-		blends_natural_01_47
+        blends_natural_01_47
     ]
 }
-
 alias
 {
     name = darkgrass_n
     tiles = [
         blends_natural_01_24
-		blends_natural_01_28			
+        blends_natural_01_28
     ]
 }
-
 alias
 {
     name = darkgrass_w
     tiles = [
         blends_natural_01_25
-		blends_natural_01_29			
+        blends_natural_01_29
     ]
 }
-
 alias
 {
     name = darkgrass_e
     tiles = [
         blends_natural_01_26
-		blends_natural_01_30
+        blends_natural_01_30
     ]
 }
-
-
 alias
 {
     name = darkgrass_s
     tiles = [
         blends_natural_01_27
-		blends_natural_01_31
+        blends_natural_01_31
     ]
 }
-
 alias
 {
     name = sand_n
     tiles = [
         blends_natural_01_8
-		blends_natural_01_12			
+        blends_natural_01_12
     ]
 }
-
 alias
 {
     name = sand_w
     tiles = [
         blends_natural_01_9
-		blends_natural_01_13			
+        blends_natural_01_13
     ]
 }
-
 alias
 {
     name = sand_e
     tiles = [
         blends_natural_01_10
-		blends_natural_01_14			
+        blends_natural_01_14
     ]
 }
-
-
 alias
 {
     name = sand_s
     tiles = [
         blends_natural_01_11
-		blends_natural_01_15			
+        blends_natural_01_15
     ]
 }
-
 alias
 {
     name = medlonggrass
     tiles = [
         blends_grassoverlays_01_24
-		blends_grassoverlays_01_25
-		blends_grassoverlays_01_26
-		blends_grassoverlays_01_27
-		blends_grassoverlays_01_28
-		blends_grassoverlays_01_29
-		
-		
+        blends_grassoverlays_01_25
+        blends_grassoverlays_01_26
+        blends_grassoverlays_01_27
+        blends_grassoverlays_01_28
+        blends_grassoverlays_01_29
     ]
 }
 alias
@@ -167,43 +144,35 @@ alias
     name = medmedgrass
     tiles = [
         blends_grassoverlays_01_32
-		blends_grassoverlays_01_33
-		blends_grassoverlays_01_34
-		blends_grassoverlays_01_35
-		blends_grassoverlays_01_36
-		blends_grassoverlays_01_37
-		
-		
+        blends_grassoverlays_01_33
+        blends_grassoverlays_01_34
+        blends_grassoverlays_01_35
+        blends_grassoverlays_01_36
+        blends_grassoverlays_01_37
     ]
 }
-
 alias
 {
     name = medshortgrass
     tiles = [
         blends_grassoverlays_01_40
-		blends_grassoverlays_01_41
-		blends_grassoverlays_01_42
-		blends_grassoverlays_01_43
-		blends_grassoverlays_01_44
-		blends_grassoverlays_01_45
-		
-		
+        blends_grassoverlays_01_41
+        blends_grassoverlays_01_42
+        blends_grassoverlays_01_43
+        blends_grassoverlays_01_44
+        blends_grassoverlays_01_45
     ]
 }
-
 alias
 {
     name = lightlonggrass
     tiles = [
         blends_grassoverlays_01_48
-		blends_grassoverlays_01_49
-		blends_grassoverlays_01_50
-		blends_grassoverlays_01_51
-		blends_grassoverlays_01_52
-		blends_grassoverlays_01_53
-		
-		
+        blends_grassoverlays_01_49
+        blends_grassoverlays_01_50
+        blends_grassoverlays_01_51
+        blends_grassoverlays_01_52
+        blends_grassoverlays_01_53
     ]
 }
 alias
@@ -211,44 +180,35 @@ alias
     name = lightmedgrass
     tiles = [
         blends_grassoverlays_01_56
-		blends_grassoverlays_01_57
-		blends_grassoverlays_01_58
-		blends_grassoverlays_01_59
-		blends_grassoverlays_01_60
-		blends_grassoverlays_01_61
-		
-		
+        blends_grassoverlays_01_57
+        blends_grassoverlays_01_58
+        blends_grassoverlays_01_59
+        blends_grassoverlays_01_60
+        blends_grassoverlays_01_61
     ]
 }
-
 alias
 {
     name = lightshortgrass
     tiles = [
         blends_grassoverlays_01_64
-		blends_grassoverlays_01_65
-		blends_grassoverlays_01_66
-		blends_grassoverlays_01_67
-		blends_grassoverlays_01_68
-		blends_grassoverlays_01_69
-		
-		
+        blends_grassoverlays_01_65
+        blends_grassoverlays_01_66
+        blends_grassoverlays_01_67
+        blends_grassoverlays_01_68
+        blends_grassoverlays_01_69
     ]
 }
-
-
 alias
 {
     name = darklonggrass
     tiles = [
         blends_grassoverlays_01_0
-		blends_grassoverlays_01_1
-		blends_grassoverlays_01_2
-		blends_grassoverlays_01_3
-		blends_grassoverlays_01_4
-		blends_grassoverlays_01_5
-		
-		
+        blends_grassoverlays_01_1
+        blends_grassoverlays_01_2
+        blends_grassoverlays_01_3
+        blends_grassoverlays_01_4
+        blends_grassoverlays_01_5
     ]
 }
 alias
@@ -256,166 +216,139 @@ alias
     name = darkmedgrass
     tiles = [
         blends_grassoverlays_01_8
-		blends_grassoverlays_01_9
-		blends_grassoverlays_01_10
-		blends_grassoverlays_01_11
-		blends_grassoverlays_01_12
-		blends_grassoverlays_01_13
-		
-		
+        blends_grassoverlays_01_9
+        blends_grassoverlays_01_10
+        blends_grassoverlays_01_11
+        blends_grassoverlays_01_12
+        blends_grassoverlays_01_13
     ]
 }
-
 alias
 {
     name = darkshortgrass
     tiles = [
         blends_grassoverlays_01_16
-		blends_grassoverlays_01_17
-		blends_grassoverlays_01_18
-		blends_grassoverlays_01_19
-		blends_grassoverlays_01_20
-		blends_grassoverlays_01_21
-		
-		
+        blends_grassoverlays_01_17
+        blends_grassoverlays_01_18
+        blends_grassoverlays_01_19
+        blends_grassoverlays_01_20
+        blends_grassoverlays_01_21
     ]
 }
-
 alias
 {
     name = street
     tiles = [
         blends_street_01_96
-		blends_street_01_101
-		blends_street_01_102
-		blends_street_01_103
-		
-		
+        blends_street_01_101
+        blends_street_01_102
+        blends_street_01_103
     ]
 }
-
-
 alias
 {
     name = street2
     tiles = [
         blends_street_01_80
-		blends_street_01_85
-		blends_street_01_86
-		blends_street_01_87
-		
-		
+        blends_street_01_85
+        blends_street_01_86
+        blends_street_01_87
     ]
 }
-
 alias
 {
     name = lightgravel
     tiles = [
         blends_street_01_48
-		blends_street_01_53
-		blends_street_01_54
-		blends_street_01_55
-		
-		
+        blends_street_01_53
+        blends_street_01_54
+        blends_street_01_55
     ]
 }
-
 alias
 {
     name = pothole
     tiles = [
         blends_street_01_16
-		blends_street_01_21
-		
-		
+        blends_street_01_21
     ]
 }
-
 alias
 {
     name = dirt
     tiles = [
-		blends_natural_01_64
+        blends_natural_01_64
         blends_natural_01_69
-        blends_natural_01_70        
-		blends_natural_01_71        
-		
+        blends_natural_01_70
+        blends_natural_01_71
     ]
 }
-
 alias
 {
     name = sand
     tiles = [
         blends_natural_01_0
-		blends_natural_01_5
-		blends_natural_01_6
-		blends_natural_01_7
+        blends_natural_01_5
+        blends_natural_01_6
+        blends_natural_01_7
     ]
 }
-
 alias
 {
     name = sandblends
     tiles = [
         blends_natural_01_8
-		blends_natural_01_9
-		blends_natural_01_10
-		blends_natural_01_11
-		blends_natural_01_1
-		blends_natural_01_4
-		blends_natural_01_3
-		blends_natural_01_2
+        blends_natural_01_9
+        blends_natural_01_10
+        blends_natural_01_11
+        blends_natural_01_1
+        blends_natural_01_4
+        blends_natural_01_3
+        blends_natural_01_2
     ]
 }
-
 alias
 {
     name = darkgrassblends
     tiles = [
         blends_natural_01_24
-		blends_natural_01_25
-		blends_natural_01_26
-		blends_natural_01_27
-		blends_natural_01_17
-		blends_natural_01_20
-		blends_natural_01_19
-		blends_natural_01_18
+        blends_natural_01_25
+        blends_natural_01_26
+        blends_natural_01_27
+        blends_natural_01_17
+        blends_natural_01_20
+        blends_natural_01_19
+        blends_natural_01_18
     ]
 }
-
 alias
 {
     name = medgrassblends
     tiles = [
         blends_natural_01_40
-		blends_natural_01_41
-		blends_natural_01_42
-		blends_natural_01_43
-		blends_natural_01_33
-		blends_natural_01_36
-		blends_natural_01_35
-		blends_natural_01_34
+        blends_natural_01_41
+        blends_natural_01_42
+        blends_natural_01_43
+        blends_natural_01_33
+        blends_natural_01_36
+        blends_natural_01_35
+        blends_natural_01_34
     ]
 }
-
-
 alias
 {
     name = lightgrassblends
     tiles = [
         blends_natural_01_56
-		blends_natural_01_57
-		blends_natural_01_58
-		blends_natural_01_59
-		blends_natural_01_49
-		blends_natural_01_52
-		blends_natural_01_51
-		blends_natural_01_59
+        blends_natural_01_57
+        blends_natural_01_58
+        blends_natural_01_59
+        blends_natural_01_49
+        blends_natural_01_52
+        blends_natural_01_51
+        blends_natural_01_59
     ]
 }
-
 alias
 {
     name = darkgrass
@@ -423,10 +356,9 @@ alias
         blends_natural_01_16
         blends_natural_01_21
         blends_natural_01_22
-		blends_natural_01_23
+        blends_natural_01_23
     ]
 }
-
 alias
 {
     name = medgrass
@@ -434,10 +366,9 @@ alias
         blends_natural_01_32
         blends_natural_01_37
         blends_natural_01_38
-		blends_natural_01_39
+        blends_natural_01_39
     ]
 }
-
 alias
 {
     name = lightgrass
@@ -445,35 +376,106 @@ alias
         blends_natural_01_48
         blends_natural_01_53
         blends_natural_01_54
-		blends_natural_01_55
+        blends_natural_01_55
     ]
 }
-
 alias
 {
     name = water
     tiles = [
-	blends_natural_02_0
+        blends_natural_02_0
         blends_natural_02_5
-        blends_natural_02_6        
-	blends_natural_02_7
+        blends_natural_02_6
+        blends_natural_02_7
     ]
 }
-
-
-
-
+alias
+{
+    name = desert
+    tiles = [
+        aza_desert_blends_natural_01_64
+        aza_desert_blends_natural_01_69
+        aza_desert_blends_natural_01_70
+        aza_desert_blends_natural_01_71
+    ]
+}
+alias
+{
+    name = desert_e
+    tiles = aza_desert_blends_natural_01_74
+}
+alias
+{
+    name = desert_n
+    tiles = aza_desert_blends_natural_01_72
+}
+alias
+{
+    name = desert_w
+    tiles = aza_desert_blends_natural_01_73
+}
+alias
+{
+    name = desert_s
+    tiles = aza_desert_blends_natural_01_75
+}
+alias
+{
+    name = desertgrass
+    tiles = [
+        aza_desert_blends_natural_01_48
+        aza_desert_blends_natural_01_53
+        aza_desert_blends_natural_01_54
+        aza_desert_blends_natural_01_55
+    ]
+}
+alias
+{
+    name = desertgrass_e
+    tiles = aza_desert_blends_natural_01_58
+}
+alias
+{
+    name = desertgrass_n
+    tiles = aza_desert_blends_natural_01_56
+}
+alias
+{
+    name = desertgrass_w
+    tiles = aza_desert_blends_natural_01_57
+}
+alias
+{
+    name = desertgrass_s
+    tiles = aza_desert_blends_natural_01_59
+}
 rule
 {
-label = Dark Grass   
- bitmap = 0
+    label = Desert
+    bitmap = 0
+    color = 160 140 100
+    tiles = desert
+    layer = 0_Floor
+}
+rule
+{
+    label = Desert Grass
+    bitmap = 0
+    color = 100 80 50
+    tiles = desertgrass
+    layer = 0_Floor
+}
+rule
+{
+    label = Dark Grass
+    bitmap = 0
     color = 90 100 35
     tiles = darkgrass
     layer = 0_Floor
 }
 rule
 {
-label = Medium Grass 
+    label = Medium Grass
     bitmap = 0
     color = 117 117 47
     tiles = medgrass
@@ -481,7 +483,7 @@ label = Medium Grass
 }
 rule
 {
-label = Light Grass 
+    label = Light Grass
     bitmap = 0
     color = 145 135 60
     tiles = lightgrass
@@ -489,7 +491,7 @@ label = Light Grass
 }
 rule
 {
-label = Sand
+    label = Sand
     bitmap = 0
     color = 210 200 160
     tiles = sand
@@ -497,22 +499,15 @@ label = Sand
 }
 rule
 {
-label = Light Asphalt
+    label = Light Asphalt
     bitmap = 0
     color = 165 160 140
     tiles = lightgravel
     layer = 0_Floor
 }
-
-
-
-
-
-
-
 rule
 {
-label = Dark Asphalt (main roads)
+    label = Dark Asphalt (main roads)
     bitmap = 0
     color = 100 100 100
     tiles = street2
@@ -520,7 +515,7 @@ label = Dark Asphalt (main roads)
 }
 rule
 {
-label = Medium Asphalt 
+    label = Medium Asphalt
     bitmap = 0
     color = 120 120 120
     tiles = street
@@ -528,7 +523,7 @@ label = Medium Asphalt
 }
 rule
 {
-label = Gravel Dirt
+    label = Gravel Dirt
     bitmap = 0
     color = 140 70 15
     tiles = floors_exterior_natural_01_12
@@ -536,8 +531,7 @@ label = Gravel Dirt
 }
 rule
 {
-
-label = Dirt
+    label = Dirt
     bitmap = 0
     color = 120 70 20
     tiles = dirt
@@ -545,42 +539,31 @@ label = Dirt
 }
 rule
 {
-label = Dark Pothole
+    label = Dark Pothole
     bitmap = 0
     color = 110 100 100
     tiles = blends_street_01_0
     layer = 0_Floor
-
 }
 rule
 {
-label = Light Pothole
+    label = Light Pothole
     bitmap = 0
     color = 130 120 120
     tiles = pothole
     layer = 0_Floor
 }
-
-
 rule
 {
-
-label = Water
+    label = Water
     bitmap = 0
     color = 0 138 255
     tiles = water
     layer = 0_Floor
 }
-
-
-
-
-
-
-
 rule
 {
-label = Trees
+    label = Trees
     bitmap = 1
     color = 255 0 0
     tiles = [
@@ -593,7 +576,7 @@ label = Trees
 }
 rule
 {
-label = Trees + Dark grass
+    label = Trees + Dark grass
     bitmap = 1
     color = 127 0 0
     tiles = [
@@ -601,7 +584,7 @@ label = Trees + Dark grass
         vegetation_trees_01_9
         vegetation_trees_01_10
         vegetation_trees_01_11
-	darklonggrass
+        darklonggrass
         darklonggrass
         darkmedgrass
         darkshortgrass
@@ -714,11 +697,11 @@ rule
         darklonggrass
         darkmedgrass
         darkshortgrass
-	vegetation_groundcover_01_18
-	vegetation_groundcover_01_19
-	vegetation_groundcover_01_21
-	vegetation_groundcover_01_22
-	vegetation_groundcover_01_23
+        vegetation_groundcover_01_18
+        vegetation_groundcover_01_19
+        vegetation_groundcover_01_21
+        vegetation_groundcover_01_22
+        vegetation_groundcover_01_23
     ]
     layer = 0_Vegetation
     condition = 90 100 35
@@ -735,14 +718,14 @@ rule
         lightshortgrass
         lightmedgrass
         lightlonggrass
-	lightshortgrass
+        lightshortgrass
         lightmedgrass
         lightlonggrass
-	vegetation_groundcover_01_18
-	vegetation_groundcover_01_19
-	vegetation_groundcover_01_21
-	vegetation_groundcover_01_22
-	vegetation_groundcover_01_23
+        vegetation_groundcover_01_18
+        vegetation_groundcover_01_19
+        vegetation_groundcover_01_21
+        vegetation_groundcover_01_22
+        vegetation_groundcover_01_23
     ]
     layer = 0_Vegetation
     condition = 145 135 60
@@ -755,24 +738,24 @@ rule
         medshortgrass
         medmedgrass
         medlonggrass
-	medshortgrass
+        medshortgrass
         medmedgrass
         medlonggrass
-	medshortgrass
+        medshortgrass
         medmedgrass
         medlonggrass
-	vegetation_groundcover_01_18
-	vegetation_groundcover_01_19
-	vegetation_groundcover_01_21
-	vegetation_groundcover_01_22
-	vegetation_groundcover_01_23
+        vegetation_groundcover_01_18
+        vegetation_groundcover_01_19
+        vegetation_groundcover_01_21
+        vegetation_groundcover_01_22
+        vegetation_groundcover_01_23
     ]
     layer = 0_Vegetation
     condition = 117 117 47
 }
 rule
 {
-	label = Grass + Few Trees (dark)
+    label = Grass + Few Trees (dark)
     bitmap = 1
     color = 0 128 0
     tiles = [
@@ -795,11 +778,11 @@ rule
         darklonggrass
         darklonggrass
         darkmedgrass
-	vegetation_groundcover_01_18
-	vegetation_groundcover_01_19
-	vegetation_groundcover_01_21
-	vegetation_groundcover_01_22
-	vegetation_groundcover_01_23
+        vegetation_groundcover_01_18
+        vegetation_groundcover_01_19
+        vegetation_groundcover_01_21
+        vegetation_groundcover_01_22
+        vegetation_groundcover_01_23
     ]
     layer = 0_Vegetation
     condition = 90 100 35
@@ -946,4 +929,332 @@ rule
     ]
     layer = 0_Vegetation
     condition = 145 135 60
+}
+rule
+{
+    label = desert grass
+    bitmap = 1
+    color = 0 255 0
+    tiles = [
+        lightshortgrass
+        d_generic_1_0
+        d_generic_1_1
+        d_generic_1_2
+        d_generic_1_3
+        d_generic_1_4
+        d_generic_1_5
+        d_generic_1_6
+        d_generic_1_7
+        desertgrass
+        desertgrass
+        desertgrass
+        desertgrass
+        desertgrass
+        lightshortgrass
+        desertgrass
+        desertgrass
+        lightshortgrass
+        desertgrass
+        desertgrass
+        vegetation_farm_01_40
+        vegetation_farm_01_41
+        vegetation_farm_01_42
+        vegetation_farm_01_43
+        vegetation_farm_01_44
+        vegetation_farm_01_45
+        vegetation_farm_01_46
+        vegetation_farm_01_47
+    ]
+    layer = 0_Vegetation
+    condition = 100 80 50
+}
+rule
+{
+    label = desert grass 2
+    bitmap = 1
+    color = 0 255 0
+    tiles = [
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        d_generic_1_0
+ 		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        d_generic_1_1
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        d_generic_1_2
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        d_generic_1_3
+        d_generic_1_4
+        d_generic_1_5
+        d_generic_1_6
+        d_generic_1_7
+        d_generic_1_16
+        d_generic_1_17
+        d_generic_1_18
+        d_generic_1_19
+        d_generic_1_20
+        d_generic_1_21
+        d_generic_1_22
+        d_generic_1_23
+        d_generic_1_24
+        d_generic_1_25
+        d_generic_1_26
+        d_generic_1_27
+        d_generic_1_28
+        d_generic_1_29
+        d_generic_1_30
+        d_generic_1_32
+        d_generic_1_33
+        d_generic_1_34
+        d_generic_1_35
+        d_generic_1_36
+        d_generic_1_37
+        d_generic_1_38
+        d_generic_1_39
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        d_generic_1_40
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        d_generic_1_41
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        d_generic_1_42
+        d_generic_1_43
+        d_generic_1_44
+        d_generic_1_45
+        d_generic_1_46
+        d_generic_1_47
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        vegetation_farm_01_32
+        vegetation_farm_01_33
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        vegetation_farm_01_34
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        vegetation_farm_01_35
+        vegetation_farm_01_36
+        vegetation_farm_01_37
+        vegetation_farm_01_38
+        vegetation_farm_01_39
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21	
+        vegetation_farm_01_40
+        vegetation_farm_01_41
+        vegetation_farm_01_42
+        vegetation_farm_01_43
+        vegetation_farm_01_44
+        vegetation_farm_01_45
+        vegetation_farm_01_46
+        vegetation_farm_01_47
+    ]
+    layer = 0_Vegetation
+    condition = 160 140 100
+}
+rule
+{
+    label = desert grass 3
+    bitmap = 1
+    color = 255 255 0
+    tiles = [
+		aza_blends_rockoverlays_01_0
+		aza_blends_rockoverlays_01_1
+		aza_blends_rockoverlays_01_2
+		aza_blends_rockoverlays_01_3
+		aza_blends_rockoverlays_01_4
+		aza_blends_rockoverlays_01_5
+		aza_blends_rockoverlays_01_8
+		aza_blends_rockoverlays_01_9
+		aza_blends_rockoverlays_01_10
+		aza_blends_rockoverlays_01_11
+		aza_blends_rockoverlays_01_12
+		aza_blends_rockoverlays_01_13
+		aza_blends_rockoverlays_01_16
+		aza_blends_rockoverlays_01_17
+		aza_blends_rockoverlays_01_18
+		aza_blends_rockoverlays_01_19
+		aza_blends_rockoverlays_01_20
+		aza_blends_rockoverlays_01_21		
+    ]
+    layer = 0_Vegetation
 }

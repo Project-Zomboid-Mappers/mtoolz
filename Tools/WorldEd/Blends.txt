@@ -1,3 +1,4 @@
+version = 1
 blend
 {
     layer = 0_FloorOverlay
@@ -5,8 +6,8 @@ blend
     blendTile = darkgrass_n
     dir = n
     exclude = water
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
@@ -14,8 +15,8 @@ blend
     blendTile = darkgrass_w
     dir = w
     exclude = water
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
@@ -23,8 +24,8 @@ blend
     blendTile = darkgrass_e
     dir = e
     exclude = water
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay4
@@ -32,8 +33,8 @@ blend
     blendTile = darkgrass_s
     dir = s
     exclude = water
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
@@ -42,13 +43,12 @@ blend
     dir = nw
     exclude = water
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay2
@@ -57,13 +57,12 @@ blend
     dir = ne
     exclude = water
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay3
@@ -72,13 +71,12 @@ blend
     dir = sw
     exclude = water
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay4
@@ -87,427 +85,480 @@ blend
     dir = se
     exclude = water
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
-
-
-
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = medgrass
     blendTile = medgrass_n
     dir = n
-    exclude = darkgrass water
+    exclude = [
+        darkgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = medgrass
     blendTile = medgrass_w
     dir = w
-    exclude = darkgrass water
+    exclude = [
+        darkgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = medgrass
     blendTile = medgrass_e
     dir = e
-    exclude = darkgrass water
+    exclude = [
+        darkgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = medgrass
     blendTile = medgrass_s
     dir = s
-    exclude = darkgrass water
+    exclude = [
+        darkgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = medgrass
     blendTile = blends_natural_01_33
     dir = nw
-    exclude = darkgrass water
+    exclude = [
+        darkgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = medgrass
     blendTile = blends_natural_01_36
     dir = ne
-    exclude = darkgrass water
+    exclude = [
+        darkgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = medgrass
     blendTile = blends_natural_01_35
     dir = sw
-    exclude = darkgrass water
+    exclude = [
+        darkgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = medgrass
     blendTile = blends_natural_01_34
     dir = se
-    exclude = darkgrass water
+    exclude = [
+        darkgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
-
-
-
-
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = lightgrass
     blendTile = lightgrass_n
     dir = n
-    exclude = darkgrass medgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = lightgrass
     blendTile = lightgrass_w
     dir = w
-    exclude = darkgrass medgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = lightgrass
     blendTile = lightgrass_e
     dir = e
-    exclude = darkgrass medgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = lightgrass
     blendTile = lightgrass_s
     dir = s
-    exclude = darkgrass medgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = lightgrass
     blendTile = blends_natural_01_49
     dir = nw
-    exclude = darkgrass medgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = lightgrass
     blendTile = blends_natural_01_52
     dir = ne
-    exclude = darkgrass medgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = lightgrass
     blendTile = blends_natural_01_51
     dir = sw
-    exclude = darkgrass medgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = lightgrass
     blendTile = blends_natural_01_50
     dir = se
-    exclude = darkgrass medgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
-
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = sand
     blendTile = sand_n
     dir = n
-    exclude = darkgrass medgrass lightgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = sand
     blendTile = sand_w
     dir = w
-    exclude = darkgrass medgrass lightgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = sand
     blendTile = sand_e
     dir = e
-    exclude = darkgrass medgrass lightgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = sand
     blendTile = sand_s
     dir = s
-    exclude = darkgrass medgrass lightgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = sand
     blendTile = blends_natural_01_1
     dir = nw
-    exclude = darkgrass medgrass lightgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = sand
     blendTile = blends_natural_01_4
     dir = ne
-    exclude = darkgrass medgrass lightgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = sand
     blendTile = blends_natural_01_3
     dir = sw
-    exclude = darkgrass medgrass lightgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = sand
     blendTile = blends_natural_01_2
     dir = se
-    exclude = darkgrass medgrass lightgrass water
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
     exclude2 = [
-	street_trafficlines_01 0_FloorOverlay
-	street_trafficlines_01 0_FloorOverlay2
-	street_trafficlines_01 0_FloorOverlay3
-	street_trafficlines_01 0_FloorOverlay4
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
     ]
 }
-
-
-
-
-
-
-
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = blends_street_01_0
     blendTile = blends_street_01_8
     dir = n
-    exclude =
+    exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = blends_street_01_0
     blendTile = blends_street_01_9
     dir = w
-    exclude =
+    exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = blends_street_01_0
     blendTile = blends_street_01_10
     dir = e
-    exclude =
+    exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = blends_street_01_0
     blendTile = blends_street_01_11
     dir = s
-    exclude =
+    exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
@@ -515,8 +566,8 @@ blend
     blendTile = blends_street_01_1
     dir = nw
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
@@ -524,8 +575,8 @@ blend
     blendTile = blends_street_01_2
     dir = se
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
@@ -533,8 +584,8 @@ blend
     blendTile = blends_street_01_3
     dir = sw
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay4
@@ -542,178 +593,240 @@ blend
     blendTile = blends_street_01_4
     dir = ne
     exclude = 
+    exclude2 = 
 }
-
-
-
-
-
-
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = pothole
     blendTile = blends_street_01_24
     dir = n
- exclude = lightgrass medgrass darkgrass sand
-
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = pothole
     blendTile = blends_street_01_25
     dir = w
- exclude = lightgrass medgrass darkgrass sand
-
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = pothole
     blendTile = blends_street_01_26
     dir = e
- exclude = lightgrass medgrass darkgrass sand
-
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = pothole
     blendTile = blends_street_01_27
     dir = s
- exclude = lightgrass medgrass darkgrass sand
-
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = pothole
     blendTile = blends_street_01_17
     dir = nw
- exclude = lightgrass medgrass darkgrass sand
-
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = pothole
     blendTile = blends_street_01_18
     dir = se
- exclude = lightgrass medgrass darkgrass sand
-
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = pothole
     blendTile = blends_street_01_19
     dir = sw
- exclude = lightgrass medgrass darkgrass sand
-
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = pothole
     blendTile = blends_street_01_20
     dir = ne
-    exclude = lightgrass medgrass darkgrass sand
-
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
-
-
-
-
-
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = dirt
     blendTile = blends_natural_01_72
     dir = n
-    exclude = water lightgrass medgrass darkgrass sand
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = dirt
     blendTile = blends_natural_01_73
     dir = w
-    exclude = water lightgrass medgrass darkgrass sand
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = dirt
     blendTile = blends_natural_01_74
     dir = e
-    exclude = water lightgrass medgrass darkgrass sand
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = dirt
     blendTile = blends_natural_01_75
     dir = s
-    exclude = water lightgrass medgrass darkgrass sand
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
     mainTile = dirt
     blendTile = blends_natural_01_65
     dir = nw
-    exclude = water lightgrass medgrass darkgrass sand
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
     mainTile = dirt
     blendTile = blends_natural_01_66
     dir = se
-    exclude = water lightgrass medgrass darkgrass sand
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
     mainTile = dirt
     blendTile = blends_natural_01_67
     dir = sw
-    exclude = water lightgrass medgrass darkgrass sand
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay4
     mainTile = dirt
     blendTile = blends_natural_01_68
     dir = ne
-    exclude = water lightgrass medgrass darkgrass sand
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
 }
-
-
-
-
-
-
-
 blend
 {
     layer = 0_FloorOverlay4
@@ -721,8 +834,8 @@ blend
     blendTile = blends_natural_02_8
     dir = n
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
@@ -730,8 +843,8 @@ blend
     blendTile = blends_natural_02_9
     dir = w
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
@@ -739,8 +852,8 @@ blend
     blendTile = blends_natural_02_10
     dir = e
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
@@ -748,8 +861,8 @@ blend
     blendTile = blends_natural_02_11
     dir = s
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay
@@ -757,8 +870,8 @@ blend
     blendTile = blends_natural_02_1
     dir = nw
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay2
@@ -766,8 +879,8 @@ blend
     blendTile = blends_natural_02_2
     dir = se
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay3
@@ -775,8 +888,8 @@ blend
     blendTile = blends_natural_02_3
     dir = sw
     exclude = 
+    exclude2 = 
 }
-
 blend
 {
     layer = 0_FloorOverlay4
@@ -784,4 +897,277 @@ blend
     blendTile = blends_natural_02_4
     dir = ne
     exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = desert
+    blendTile = desert_n
+    dir = n
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+        desertgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = desert
+    blendTile = desert_w
+    dir = w
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+        desertgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = desert
+    blendTile = desert_e
+    dir = e
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+        desertgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = desert
+    blendTile = desert_s
+    dir = s
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+        desertgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = desert
+    blendTile = aza_desert_blends_natural_01_65
+    dir = nw
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+        desertgrass
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = desert
+    blendTile = aza_desert_blends_natural_01_68
+    dir = ne
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+        desertgrass
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = desert
+    blendTile = aza_desert_blends_natural_01_67
+    dir = sw
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+        desertgrass
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = desert
+    blendTile = aza_desert_blends_natural_01_66
+    dir = se
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+        desertgrass
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = desertgrass
+    blendTile = desertgrass_n
+    dir = n
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = desertgrass
+    blendTile = desertgrass_w
+    dir = w
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = desertgrass
+    blendTile = desertgrass_e
+    dir = e
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = desertgrass
+    blendTile = desertgrass_s
+    dir = s
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = desertgrass
+    blendTile = aza_desert_blends_natural_01_49
+    dir = nw
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = desertgrass
+    blendTile = aza_desert_blends_natural_01_52
+    dir = ne
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = desertgrass
+    blendTile = aza_desert_blends_natural_01_51
+    dir = sw
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = desertgrass
+    blendTile = aza_desert_blends_natural_01_50
+    dir = se
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
 }
