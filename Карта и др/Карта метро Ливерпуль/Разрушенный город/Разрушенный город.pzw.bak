@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world version="1.0" width="5" height="7">
+ <BMPToTMX>
+  <tmxexportdir path=""/>
+  <rulesfile path=""/>
+  <blendsfile path=""/>
+  <mapbasefile path=""/>
+  <assign-maps-to-world checked="false"/>
+  <warn-unknown-colors checked="true"/>
+  <compress checked="true"/>
+  <copy-pixels checked="true"/>
+  <update-existing checked="false"/>
+ </BMPToTMX>
+ <TMXToBMP>
+  <mainImage generate="true"/>
+  <vegetationImage generate="true"/>
+  <buildingsImage path="" generate="false"/>
+ </TMXToBMP>
+ <GenerateLots>
+  <exportdir path="../../../../Zomboid/mods/Dump NH/media/maps/desert"/>
+  <ZombieSpawnMap path="G:/Steam/steamapps/common/Project Zomboid Modding Tools/Карта метро Ливерпуль/Изображение/Ливерпуль зомби.png"/>
+  <TileDefFolder path="G:/Steam/steamapps/common/Project Zomboid Modding Tools/Tiles"/>
+  <worldOrigin origin="12,35"/>
+ </GenerateLots>
+ <LuaSettings>
+  <spawnPointsFile path=""/>
+  <worldObjectsFile path="../../../../Zomboid/mods/Dump NH/media/maps/desert/objects.lua"/>
+ </LuaSettings>
+ <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
+ <propertyenum name="Pose" choices="pose01,pose02,pose03" multi="false"/>
+ <propertyenum name="Skin" choices="White,Black" multi="false"/>
+ <propertyenum name="RoomTone" choices="Generic,Barn,Mall,Warehouse,Prison,Church,Office,Factory" multi="false"/>
+ <propertydef name="Direction" default="N" enum="Direction"/>
+ <propertydef name="FaceDirection" default="true"/>
+ <propertydef name="WaterDirection" default="0.0"/>
+ <propertydef name="WaterSpeed" default="0.0"/>
+ <propertydef name="WaterGround" default="false"/>
+ <propertydef name="WaterShore" default="true"/>
+ <propertydef name="Female" default="true"/>
+ <propertydef name="Pose" default="pose01" enum="Pose"/>
+ <propertydef name="Skin" default="White" enum="Skin"/>
+ <propertydef name="Outfit" default=""/>
+ <propertydef name="Script" default=""/>
+ <propertydef name="RoomTone" default="Generic" enum="RoomTone"/>
+ <propertydef name="EntireBuilding" default="false"/>
+ <template name="ParkingStallN">
+  <property name="Direction" value="N"/>
+ </template>
+ <template name="ParkingStallS">
+  <property name="Direction" value="S"/>
+ </template>
+ <template name="ParkingStallW">
+  <property name="Direction" value="W"/>
+ </template>
+ <template name="ParkingStallE">
+  <property name="Direction" value="E"/>
+ </template>
+ <template name="WaterFlowN">
+  <property name="WaterDirection" value="0"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowS">
+  <property name="WaterDirection" value="180"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowE">
+  <property name="WaterDirection" value="90"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowW">
+  <property name="WaterDirection" value="270"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterZone">
+  <property name="WaterGround" value="false"/>
+  <property name="WaterShore" value="true"/>
+ </template>
+ <template name="RoomTone">
+  <property name="RoomTone" value="Generic"/>
+  <property name="EntireBuilding" value="false"/>
+ </template>
+ <objecttype name="TownZone"/>
+ <objecttype name="Forest"/>
+ <objecttype name="DeepForest"/>
+ <objecttype name="Nav"/>
+ <objecttype name="Vegitation"/>
+ <objecttype name="TrailerPark"/>
+ <objecttype name="Farm"/>
+ <objecttype name="ParkingStall"/>
+ <objecttype name="FarmLand"/>
+ <objecttype name="WaterFlow"/>
+ <objecttype name="WaterZone"/>
+ <objecttype name="Mannequin"/>
+ <objecttype name="RoomTone"/>
+ <objectgroup name="ParkingStall" color="#ff007f" defaulttype="ParkingStall"/>
+ <objectgroup name="TownZone" color="#aa0000" defaulttype="TownZone"/>
+ <objectgroup name="Forest" color="#00aa00" defaulttype="Forest"/>
+ <objectgroup name="Nav" color="#55aaff" defaulttype="Nav"/>
+ <objectgroup name="DeepForest" color="#003500" defaulttype="DeepForest"/>
+ <objectgroup name="Vegitation" color="#b3b300" defaulttype="Vegitation"/>
+ <objectgroup name="TrailerPark" color="#f50000" defaulttype="TrailerPark"/>
+ <objectgroup name="Farm" color="#55ff7f" defaulttype="Farm"/>
+ <objectgroup name="FarmLand" color="#bcff7d" defaulttype="FarmLand"/>
+ <objectgroup name="WaterFlow" color="#0000ff" defaulttype="WaterFlow"/>
+ <objectgroup name="WaterZone" color="#0000ff" defaulttype="WaterZone"/>
+ <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
+ <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
+ <cell x="0" y="0" map="Окраины_0_0.tmx">
+  <lot x="-3" y="163" level="0" width="81" height="121" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Завод у горыН.tbx"/>
+  <lot x="205" y="264" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал3.tbx"/>
+  <lot x="277" y="178" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал2.tbx"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="53,300 45,284 44,266 43,241 49,241 51,256 52,279 53,285 63,300"/>
+  <object group="WaterZone" type="WaterZone" level="0" geometry="polygon" points="120,0 118,8 116,18 109,28 95,40 95,50 96,58 99,71 99,91 98,97 97,108 97,131 95,138 94,145 93,150 90,158 85,164 82,169 81,174 79,177 72,177 73,179 78,183 84,184 91,184 97,178 105,171 111,163 118,149 122,136 124,122 127,102 129,89 137,80 136,67 135,56 134,39 134,31 138,20 140,10 144,0"/>
+ </cell>
+ <cell x="1" y="0" map="Окраины_1_0.tmx">
+  <lot x="85" y="180" level="0" width="31" height="41" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал5.tbx"/>
+  <lot x="19" y="155" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал4.tbx"/>
+  <lot x="74" y="269" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал2.tbx"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="-189,0 -180,0 -182,8 -184,18 -191,28 -205,40 -205,50 -204,58 -201,71 -201,91 -203,108 -203,131 -205,138 -206,145 -207,150 -210,158 -214,163 -215,164 -218,169 -219,174 -221,177 -228,177 -253,172 -300,174 -300,164 -252,162 -241,160 -216,129 -213,114 -213,95 -214,76 -213,42"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="-243,232 -227,247 -205,244 -188,235 -174,221 -143,211 -132,193 -130,175 -119,165 -120,157 -116,152 -110,129 -102,113 -103,82 -111,63 -106,49 -103,40 -95,28 -93,12 -96,0 -156,0 -162,20 -166,31 -163,80 -170,89 -178,135 -183,149 -189,163 -209,184 -215,186 -225,182 -234,191 -249,193 -250,198 -238,199 -238,213 -235,217 -236,227"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="117,0 132,8 153,14 171,28 183,33 195,35 210,37 217,36 233,35 244,33 246,32 254,34 270,37 285,36 300,35 300,0 247,0 237,6 205,7 186,6 174,0"/>
+  <object group="Forest" type="Forest" level="0" geometry="polygon" points="174,0 247,0 237,6 206,7 186,6"/>
+  <object group="Forest" type="Forest" level="0" geometry="polygon" points="-300,164 -254,162 -241,160 -225,140 -216,128 -213,114 -213,95 -214,76 -214,58 -213,42 -209,33 -201,20 -195,11 -189,0 -300,0"/>
+ </cell>
+ <cell x="2" y="0" map="Окраины_2_0.tmx">
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="118,300 118,276 250,144 300,144 300,128 187,128 145,86 145,0 130,0 130,87 187,144 239,144 239,145 110,274 110,300"/>
+  <object group="Forest" type="Forest" level="0" geometry="polygon" points="5,0 12,6 36,11 39,8 22,0"/>
+  <object group="Forest" type="Forest" level="0" geometry="polygon" points="74,3 100,6 115,4 111,0 70,0"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="0,2 20,19 42,20 55,15 64,12 80,11 107,10 121,5 124,0 111,0 115,4 100,6 74,3 70,0 22,0 39,8 36,11 12,6 5,0 0,0"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="154,0 168,25 188,43 218,37 239,34 254,37 300,31 300,0"/>
+ </cell>
+ <cell x="3" y="0" map="Окраины_3_0 .tmx">
+  <object group="Nav" type="Nav" x="0" y="128" level="0" width="300" height="16"/>
+  <object group="Forest" type="Forest" level="0" geometry="polygon" points="129,0 159,29 230,65 279,84 300,96 300,0"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="300,96 300,128 217,128 199,114 142,77 113,60 98,56 80,47 51,44 38,40 21,32 0,31 0,0 129,0 159,29 228,64 279,84"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="230,145 237,158 248,176 251,220 249,220 245,202 229,171 229,165 220,152 209,144"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="300,144 244,144 250,153 260,162 268,183 267,198 256,245 261,257 262,269 268,281 269,294 266,300 272,300 274,297 275,290 277,287 280,291 283,298 285,300 300,300"/>
+ </cell>
+ <cell x="4" y="0" map="Окраины_4_0 .tmx"/>
+ <cell x="0" y="1" map="Окраины_0_1.tmx">
+  <lot x="163" y="25" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал3.tbx"/>
+  <lot x="262" y="112" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал2.tbx"/>
+  <lot x="35" y="80" level="0" width="31" height="41" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал5.tbx"/>
+  <lot x="37" y="223" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал4.tbx"/>
+  <lot x="86" y="169" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал3.tbx"/>
+  <lot x="23" y="21" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал2.tbx"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="300,262 261,246 236,225 201,189 167,155 139,124 120,96 92,57 67,23 53,0 63,0 80,26 101,55 127,91 152,128 189,165 233,207 260,233 300,250"/>
+ </cell>
+ <cell x="1" y="1" map="Окраины_1_1.tmx">
+  <lot x="91" y="93" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал3.tbx"/>
+  <lot x="211" y="196" level="0" width="61" height="61" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Локация с поездом.tbx"/>
+  <lot x="11" y="8" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал4.tbx"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="300,275 122,272 41,269 0,262 0,250 42,260 141,264 238,267 236,254 244,254 246,267 300,267"/>
+  <object group="TrailerPark" type="TrailerPark" level="0" geometry="polygon" points="246,267 244,254 236,254 238,267 198,266 195,195 281,193 285,267"/>
+ </cell>
+ <cell x="2" y="1" map="Окраины_2_1.tmx">
+  <object group="Nav" type="Nav" x="110" y="0" level="0" width="8" height="300"/>
+  <object group="Nav" type="Nav" x="0" y="267" level="0" width="110" height="8"/>
+ </cell>
+ <cell x="3" y="1" map="Окраины_3_1.tmx">
+  <object group="Forest" type="Forest" level="0" geometry="polygon" points="300,29 292,67 289,115 296,174 301,181 300,178"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="300,29 300,0 266,0 254,13 253,20 258,20 258,34 257,74 261,113 265,145 264,183 265,209 270,240 274,261 288,300 300,300 300,180 296,174 289,114 292,67"/>
+ </cell>
+ <cell x="4" y="1" map="Окраины_4_1.tmx"/>
+ <cell x="0" y="2" map="Окраины_0_2.tmx"/>
+ <cell x="1" y="2" map="Окраины_1_2.tmx"/>
+ <cell x="2" y="2" map="Окраины_2_2.tmx">
+  <lot x="125" y="122" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Декор ландшафт3.tbx"/>
+  <lot x="252" y="80" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Ванила/lot_house_medium_18_farmhouse.tbx"/>
+  <lot x="265" y="73" level="0" width="11" height="11" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Ванила/lot_laststand_01_cover.tbx"/>
+  <lot x="232" y="81" level="0" width="12" height="13" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Ванила/lot_barn_06_coop.tbx"/>
+  <lot x="230" y="58" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Ванила/lot_barn_02.tbx"/>
+  <lot x="233" y="72" level="0" width="7" height="7" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Ванила/lot_outhouse_small_01.tbx"/>
+  <object group="Nav" type="Nav" x="63" y="294" level="0" width="47" height="6"/>
+  <object group="Nav" type="Nav" x="110" y="0" level="0" width="8" height="300"/>
+  <object group="Nav" type="Nav" x="118" y="108" level="0" width="153" height="6"/>
+ </cell>
+ <cell x="3" y="2" map="Окраины_3_2.tmx">
+  <lot x="191" y="43" level="0" width="81" height="51" map="../../Из других проектов/Project Zomboud Map/Бук/Психушка.tbx"/>
+  <lot x="194" y="5" level="0" width="70" height="39" map="../../Из других проектов/Project Zomboud Map/Бук/Парк.tbx"/>
+  <lot x="241" y="8" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Бук/Крематорий.tbx"/>
+  <object group="FarmLand" type="FarmLand" x="-177" y="13" level="0" width="110" height="92"/>
+  <object group="Farm" type="Farm" x="-67" y="54" level="0" width="47" height="54"/>
+  <object group="Forest" type="Forest" level="0" geometry="polygon" points="300,13 293,17 278,44 264,86 266,148 279,206 284,253 287,300 300,300"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="300,0 300,13 293,17 278,44 264,86 266,148 279,206 287,300 279,300 279,266 274,226 271,208 263,182 260,164 252,143 255,133 257,115 259,93 262,73 267,51 269,37 274,24 282,13 288,0"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="265,0 260,0 255,7 253,27 254,45 259,41 264,31 266,14 267,4"/>
+ </cell>
+ <cell x="4" y="2" map="Окраины_4_2.tmx"/>
+ <cell x="0" y="3" map="Окраины_0_3.tmx">
+  <lot x="2" y="56" level="0" width="301" height="170" map="../../Из других проектов/Project Zomboud Map/Бук/Свалка.tbx"/>
+ </cell>
+ <cell x="1" y="3" map="Окраины_1_3.tmx">
+  <object group="Nav" type="Nav" x="181" y="265" level="0" width="119" height="6"/>
+ </cell>
+ <cell x="2" y="3" map="Ландшафт 1 Cell_0_0.tmx">
+  <lot x="31" y="13" level="0" width="29" height="29" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/apartments1.tbx"/>
+  <lot x="31" y="63" level="0" width="29" height="29" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/apartments2.tbx"/>
+  <lot x="81" y="209" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Офис2.tbx"/>
+  <lot x="149" y="27" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 1.tbx"/>
+  <lot x="88" y="3" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 3.tbx"/>
+  <lot x="141" y="87" level="0" width="36" height="16" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/mainstreet_1x5_1.tbx"/>
+  <lot x="180" y="87" level="0" width="36" height="16" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/mainstreet_1x5_2.tbx"/>
+  <lot x="57" y="237" level="0" width="22" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/hospital.tbx"/>
+  <lot x="71" y="31" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 7.tbx"/>
+  <lot x="71" y="81" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 7.tbx"/>
+  <lot x="122" y="112" level="0" width="113" height="20" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Shops.tbx"/>
+  <lot x="174" y="27" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 2.tbx"/>
+  <lot x="71" y="56" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 8.tbx"/>
+  <lot x="71" y="6" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 8.tbx"/>
+  <lot x="88" y="78" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 4.tbx"/>
+  <lot x="127" y="208" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Офис.tbx"/>
+  <lot x="209" y="234" level="0" width="18" height="29" map="../../Из других проектов/Project Zomboud Map/Карта Дудоза/Невада/FossoilSlounRotated.tbx"/>
+  <lot x="127" y="234" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Офис3.tbx"/>
+  <lot x="127" y="148" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Офис4.tbx"/>
+  <lot x="127" y="174" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Офис5.tbx"/>
+  <lot x="88" y="53" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 3с.tbx"/>
+  <lot x="124" y="27" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 2с.tbx"/>
+  <lot x="81" y="235" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/О_мой_вход.tbx"/>
+  <lot x="129" y="259" level="0" width="7" height="6" map="../../Из других проектов/Project Zomboud Map/Новый проект/bus_stop_city_s_by_7_v1.0.tbx"/>
+  <lot x="88" y="28" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Здания Лив и др/Дома 2/Мал Дом 4с.tbx"/>
+  <lot x="-2" y="114" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Офис6.tbx"/>
+  <lot x="81" y="120" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Офис7.tbx"/>
+  <lot x="198" y="166" level="0" width="40" height="41" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Пожарка2.tbx"/>
+  <lot x="177" y="276" level="0" width="18" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Руины.tbx"/>
+  <lot x="83" y="276" level="0" width="18" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Руины1.tbx"/>
+  <lot x="52" y="209" level="0" width="34" height="23" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Ванила/lot_bank_01.tbx"/>
+  <lot x="25" y="146" level="0" width="81" height="51" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Big_Police_Station_01.tbx"/>
+  <lot x="-1" y="145" level="0" width="21" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Офис5Н.tbx"/>
+  <lot x="31" y="210" level="0" width="18" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Руины.tbx"/>
+  <lot x="-3" y="176" level="0" width="22" height="18" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/РуиныН.tbx"/>
+  <lot x="124" y="276" level="0" width="18" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Руины2.tbx"/>
+  <lot x="41" y="276" level="0" width="18" height="22" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Руины.tbx"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="23" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="212" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="212" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="212" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="222" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="222" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="222" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="222" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="212" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="248" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="248" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="248" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="248" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="238" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="238" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="238" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="238" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="188" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="188" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="188" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="188" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="178" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="178" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="178" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="178" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="162" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="162" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="162" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="162" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="152" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="152" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="152" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="152" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="53" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="47" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="44" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="41" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="38" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="35" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="32" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="29" y="43" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="53" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="47" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="44" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="41" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="38" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="35" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="32" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="29" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="26" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="23" y="57" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="26" y="43" level="0" width="3" height="4"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="0" y="265" level="0" width="243" height="6"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="110" y="0" level="0" width="8" height="265"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="63" y="0" level="0" width="6" height="104"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="27" y="104" level="0" width="83" height="6"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="118" y="136" level="0" width="119" height="4"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="118" y="104" level="0" width="119" height="6"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="118" y="49" level="0" width="119" height="6"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="237" y="49" level="0" width="6" height="216"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="144" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="141" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="147" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="150" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="153" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="156" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="159" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="162" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="165" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="168" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="171" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="182" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="185" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="188" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="191" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="194" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="197" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="200" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="203" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="206" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="209" y="77" level="0" width="3" height="4"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="212" y="77" level="0" width="3" height="4"/>
+  <object name="defaulttype" group="TownZone" type="TownZone" x="118" y="140" level="0" width="57" height="125"/>
+  <object name="defaulttype" group="TownZone" type="TownZone" x="118" y="110" level="0" width="119" height="26"/>
+  <object name="defaulttype" group="TownZone" type="TownZone" x="134" y="74" level="0" width="88" height="30"/>
+  <object name="defaulttype" group="TownZone" type="TownZone" x="69" y="0" level="0" width="41" height="104"/>
+  <object name="defaulttype" group="TownZone" type="TownZone" x="118" y="21" level="0" width="81" height="28"/>
+  <object name="defaulttype" group="TownZone" type="TownZone" x="23" y="9" level="0" width="40" height="95"/>
+  <object name="defaulttype" group="Nav" type="Nav" level="0" geometry="polygon" points="181,265 181,264 197,248 205,248 205,244 228,244 228,248 237,248 237,252 228,252 228,256 205,256 205,252 199,252 188,263 188,265"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="224" y="189" level="0" width="13" height="3"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="224" y="183" level="0" width="13" height="3"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="224" y="177" level="0" width="13" height="3"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="224" y="171" level="0" width="13" height="3"/>
+  <object name="defaulttype" group="TownZone" type="TownZone" x="27" y="110" level="0" width="83" height="89"/>
+  <object name="defaulttype" group="TownZone" type="TownZone" x="49" y="205" level="0" width="61" height="60"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="27" y="199" level="0" width="83" height="6"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="33" y="170" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="33" y="173" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="33" y="176" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="33" y="179" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="33" y="182" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="33" y="185" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="33" y="188" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="185" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="182" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="179" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="176" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="173" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="170" level="0" width="4" height="3"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="50" y="167" level="0" width="4" height="3"/>
+  <object name="defaulttype" group="Nav" type="Nav" x="21" y="104" level="0" width="6" height="101"/>
+ </cell>
+ <cell x="3" y="3" map="Окраины_3_3.tmx">
+  <object group="Forest" type="Forest" level="0" geometry="polygon" points="300,0 287,0 283,22 289,57 296,101 300,108"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="279,0 279,19 279,35 279,42 283,52 289,71 288,82 293,96 295,109 300,119 300,108 296,101 292,76 283,22 287,0"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="300,248 292,225 290,181 292,165 300,155"/>
+ </cell>
+ <cell x="4" y="3" map="Окраины_4_3.tmx"/>
+ <cell x="0" y="4" map="Окраины_0_4.tmx"/>
+ <cell x="1" y="4" map="Окраины_1_4.tmx"/>
+ <cell x="2" y="4" map="Окраины_2_4.tmx"/>
+ <cell x="3" y="4" map="Окраины_3_4.tmx">
+  <lot x="243" y="168" level="0" width="31" height="41" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал5.tbx"/>
+  <lot x="16" y="230" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал4.tbx"/>
+  <lot x="139" y="188" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал3.tbx"/>
+  <lot x="80" y="154" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал2.tbx"/>
+  <lot x="123" y="240" level="0" width="178" height="61" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Шахта 3 гораН.tbx"/>
+  <lot x="170" y="111" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Нов про Обвалы/Гора мал4.tbx"/>
+ </cell>
+ <cell x="4" y="4" map="Окраины_4_4.tmx">
+  <lot x="0" y="235" level="0" width="81" height="66" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Горы/Часть горы.tbx"/>
+ </cell>
+ <cell x="0" y="5" map="Окраины_0_5.tmx"/>
+ <cell x="1" y="5" map="Окраины_1_5.tmx"/>
+ <cell x="2" y="5" map="Окраины_2_5.tmx"/>
+ <cell x="3" y="5" map="Окраины_3_5.tmx">
+  <lot x="0" y="0" level="0" width="301" height="301" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Завод/Завод 3.tbx"/>
+  <lot x="79" y="70" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Завод/Кран хуйня 2.tbx"/>
+  <lot x="29" y="143" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Завод/Кран хуйня.tbx"/>
+  <lot x="125" y="0" level="0" width="176" height="31" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Горы/Часть горы3.tbx"/>
+ </cell>
+ <cell x="4" y="5" map="Окраины_4_5.tmx">
+  <lot x="0" y="29" level="0" width="63" height="272" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Завод/Завод 4.tbx"/>
+  <lot x="0" y="0" level="0" width="81" height="26" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Горы/Часть горы2.tbx"/>
+ </cell>
+ <cell x="0" y="6" map="Окраины_0_6.tmx"/>
+ <cell x="1" y="6" map="Окраины_1_6.tmx"/>
+ <cell x="2" y="6" map="Окраины_2_6.tmx"/>
+ <cell x="3" y="6" map="Окраины_3_6.tmx">
+  <lot x="0" y="0" level="0" width="301" height="124" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Завод/Завод 1.tbx"/>
+  <lot x="51" y="0" level="0" width="61" height="61" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Завод/anministration zavoda.tbx"/>
+  <lot x="105" y="34" level="0" width="21" height="21" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Завод/Кран хуйня.tbx"/>
+ </cell>
+ <cell x="4" y="6" map="Окраины_4_6.tmx">
+  <lot x="0" y="0" level="0" width="63" height="124" map="../../Из других проектов/Project Zomboud Map/Разрушенные здания/Завод/Завод 2.tbx"/>
+ </cell>
+</world>
