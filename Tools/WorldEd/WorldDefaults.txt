@@ -309,6 +309,12 @@ property
     default = true
 }
 
+property
+{
+    name = Outfit
+    default =
+}
+
 enum
 {
     name = Pose
@@ -325,6 +331,12 @@ property
     name = Pose
     default = pose01
     enum = Pose
+}
+
+property
+{
+    name = Script
+    default =
 }
 
 enum
@@ -354,5 +366,63 @@ objectgroup
     name = Mannequin
     color = #0000ff
     defaulttype = Mannequin
+}
+
+
+
+enum
+{
+    name = RoomTone
+    values = [
+        Generic
+        Barn
+        Mall
+        Warehouse
+        Prison
+        Church
+        Office
+        Factory
+    ]
+    multi = false
+}
+
+property
+{
+    name = RoomTone
+    default = Generic
+    enum = RoomTone
+}
+
+property
+{
+    name = EntireBuilding
+    default = false
+}
+
+template
+{
+    name = RoomTone
+    property
+    {
+        name = RoomTone
+        value = Generic
+    }
+    property
+    {
+        name = EntireBuilding
+        value = false
+    }
+}
+
+objecttype
+{
+    name = RoomTone
+}
+
+objectgroup
+{
+    name = RoomTone
+    color = #0000ff
+    defaulttype = RoomTone
 }
 
